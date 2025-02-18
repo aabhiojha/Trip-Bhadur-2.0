@@ -5,10 +5,10 @@ import { Button } from "../ui/button";
 function Header() {
   return (
     <>
-      <div className="p-5">
+      <div className="p-3 shadow-sm flex justify-between items-center px-5">
         <img src={Logo} alt="" />
         <div>
-          <Button variant="destructive">Sign In</Button>
+          <Button variant="default">Sign In</Button>
         </div>
       </div>
     </>
